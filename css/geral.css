@@ -156,7 +156,7 @@ h3 {
 }
 
 .faq-lista dd {
-  font-family: Helvetica, Arial;
+  font-family: "Open Sans", Arial;
   margin-bottom: .5rem;
   margin-left: 30px;
 }
@@ -171,7 +171,7 @@ h3 {
 
 .dados li {
   margin-bottom: 1rem;
-  font-family: Helvetica, Arial;
+  font-family: "Open Sans", Arial;
 }
 
 .dados li::before {
