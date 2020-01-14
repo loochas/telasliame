@@ -1,23 +1,21 @@
 {
-  "name": "animais-fantasticos",
+  "name": "liame-telas-app",
   "version": "1.0.0",
+  "description": "",
+  "main": "animacoes.js",
   "scripts": {
-    "build": "webpack --mode production",
-    "dev": "webpack --mode development --watch"
-  },
+    "build":"webpack --mode production script.js --output ./main.js",
+    "dev":"webpack --mode development --watch script.js --output ./main.js"
+  }
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "eslint": "^5.5.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "webpack": "^4.17.2",
-    "webpack-cli": "^3.1.0"
-  },
-  "dependencies": {
-    "@babel/polyfill": "^7.0.0",
-    "whatwg-fetch": "^2.0.4"
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   }
 }
